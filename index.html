@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delius&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div><h1>Kiddie Frog Math</h1></div>
+            <div><audio
+            controls
+            volumechange="20"
+            src="/audio/game-comedy-interesting-playful-sweet-bright-childish-music-57040.mp3">
+                <code>audio</code> element.
+        </audio>
+    </div>
+        </div>
+    </header>
+    
+    <div class="game">
+    <div class="wrapper">
+
+        <div class="menu">
+        <button id="timeBtn" onclick="startGame()">
+            <p id="start" hidden>START</p>
+            <p id="timeDisplay" hidden>Time Left:<br>10</p></button>
+            <div class="score">
+            <p id="scoreText">0</p>
+            <img id="scoreImg" src="" />
+        </div>
+    </div>
+          
+        <div class="equation">
+            <p id="num1"></p>
+            <img id="frogImg" src="" />
+            <h1 style="color: purple;">+</h1>
+            <p id="num2"></p>
+            <img id="frogImg2" src="" />
+            <h1 style="color: purple;">=</h1>
+        </div>
+
+<div class="answer-options">
+    <button id="option1">1</button>
+    <button id="option2">2</button>
+    <button id="option3">3</button>
+</div>
+</div>
+
+    </div>
+
+    <script src="scripts/ad.js"></script>
+</body>
+</html>
